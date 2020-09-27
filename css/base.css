@@ -1,8 +1,36 @@
 
 body, html {
-  height: 100%;
+  width: 960px;
+  height: 768px;
   margin: 0;
   padding: 0;
-  width: 100%;
+  background: url(../images/salmoncookie0.jpg) no-repeat center;
 }
 
+header {
+  background-color: darkslategray;
+  text-align: center;
+}
+
+.section {
+  width: 200px;
+  color: lightslategray;
+  font-size: x-large;
+  margin: auto;
+  overflow: hidden;
+  border: solid whitesmoke;
+  background-color: darkslategray;
+}
+
+div {
+  text-align: center;
+}
+
+footer {
+  background-color: darkslategray;
+  text-align: center;
+}
+
+.article {
+  background-color: lightslategray;
+}
